@@ -1,0 +1,41 @@
+.list_wrapper {
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.list_icons {
+  display: flex;
+  border: solid;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(240, 231, 240, 1);
+}
+.active_label {
+}
+.deactive_label {
+  text-decoration: line-through;
+}
+.error {
+  color: red;
+}
+input[type="text"] {
+  all: unset;
+  border: solid grey;
+  border-radius: 10px;
+}
+button {
+  all: unset;
+  border: solid green;
+  border-radius: 10px;
+  width: 50px;
+  text-align: center;
+  color: white;
+  background-color: aquamarine;
+}
